@@ -12,4 +12,10 @@ function getFirstAnnonce (){
     return $first;
 }
 
+function insertAnnonce($libelle, $tab)
+{
+    $data = getAllannonces();
+    $data[$libelle] = $tab;
+    return $data;
+}
 ?>

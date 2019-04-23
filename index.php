@@ -30,3 +30,13 @@ $resultat = getAllannonces();
         ?>
     </li>
 </ul>
+
+<?php
+$first = getFirstannonce();
+print_r($first);
+
+$newProduit= insertAnnonce('annonce3', array("fruit",2));
+
+echo "<pre>";
+print_r($newProduit);
+?>

@@ -10,6 +10,7 @@ $resultat = getAllannonce();
         echo $resultat["annonce1"][0];
         ?>
     </li>
+    
     <li>
     <?php
         echo $resultat["annonce1"][1];

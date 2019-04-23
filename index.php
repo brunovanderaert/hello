@@ -1,6 +1,6 @@
 <?php
 require "function.php";
-$resultat = getAllannonce();
+$resultat = getAllannonces();
 
 ?>
 
@@ -10,7 +10,7 @@ $resultat = getAllannonce();
         echo $resultat["annonce1"][0];
         ?>
     </li>
-    
+
     <li>
     <?php
         echo $resultat["annonce1"][1];

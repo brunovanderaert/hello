@@ -53,6 +53,9 @@ $newProduit= insertAnnonce('annonce3', array("fruit",2));
 
 echo "<pre>";
 print_r($newProduit);
+function deleteAnnonce(){
+    return[];
+}
 ?>
 
 <script>
